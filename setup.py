@@ -10,7 +10,7 @@ ext_modules = [
 setup(
     long_description=open("README.md", "r").read(),
     name="timerpp",
-    version="0.1",
+    version="0.4",
     description="timer class",
     author="Pascal Eberlein",
     author_email="pascal@eberlein.io",
@@ -24,5 +24,6 @@ setup(
     keywords="timer soft-timer",
     packages=find_packages(),
     long_description_content_type="text/markdown",
-    ext_modules=ext_modules
+    ext_modules=ext_modules,
+    headers=['timerpp.h']
 )
