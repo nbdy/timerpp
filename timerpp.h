@@ -56,7 +56,6 @@ class Timer {
   uint64_t m_u64FunctionEndTimestamp = 0;
   uint64_t m_u64FunctionTime = 0;
 
-
  public:
   enum StartResult {
     START_OK = 0, ALREADY_RUNNING, INTERVAL_NULL, FUNCTION_NULL
@@ -132,6 +131,7 @@ class Timer {
     return m_bFunctionTooExpensive;
   }
 
+ protected:
   void _waitForArm() {
     UniqueLock lg(m_Mutex);
     m_Condition.wait(lg, [this]{ return m_bArmed || !m_bRun; });

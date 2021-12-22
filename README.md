@@ -5,6 +5,7 @@
 - [X] header only
 - [X] [tested](tests.cpp)
 - [X] no dependencies
+- [X] python bindings
 
 # example
 
