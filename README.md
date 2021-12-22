@@ -6,6 +6,8 @@
 - [X] [tested](tests.cpp)
 - [X] no dependencies
 - [X] python bindings
+  - `pip3 install git+https://github.com/nbdy/timerpp`
+  - `pip3 install timerpp`
 
 # example
 
