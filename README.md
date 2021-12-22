@@ -11,6 +11,8 @@
 
 # example
 
+## cpp
+
 ```c++
 #include "timerpp.h"
 #include <iostream>
@@ -34,6 +36,8 @@ int main() {
   return 0;
 }
 ```
+
+## python
 
 ```python
 from timerpp import Timer
